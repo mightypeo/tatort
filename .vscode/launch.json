@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "tatort info nochnicht",
+            "type": "python",
+            "request": "launch",
+            "program": "tatort.py",
+            "args": [
+                "info",
+                "nochnicht"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "tatort --kurz info nochnicht --luecken",
+            "type": "python",
+            "request": "launch",
+            "program": "tatort.py",
+            "args": [
+                "--kurz",
+                "info",
+                "nochnicht",
+                "--luecken"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "tatort --help",
+            "type": "python",
+            "request": "launch",
+            "program": "tatort.py",
+            "args": [
+                "--help"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}

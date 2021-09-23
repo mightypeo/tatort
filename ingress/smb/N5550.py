@@ -6,4 +6,3 @@ def read_file_list(filename: str) -> List[str]:
         content = infile.read()
 
     return content.split("\n")
-
